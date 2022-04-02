@@ -27,7 +27,7 @@ class PageHome extends React.Component{
                 <form
                     className="form-inline"
                     onSubmit={this.handleSubmit}
-                    name="FOrm"
+                    name="Form"
                 >
                 <div className="busqueda">
                     <input
@@ -43,9 +43,6 @@ class PageHome extends React.Component{
               <div className="actions">
                 <button className="btng" type="submit">
                   Search Similar Artist
-                </button>
-                <button className="btng">
-                  EscuelaDevRock
                 </button>
               </div>
             </form>
