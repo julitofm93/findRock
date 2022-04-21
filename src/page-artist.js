@@ -56,7 +56,7 @@ class PageArtist extends Component {
   fetchData = async () => {
     let artista = this.props.history.location.search.substr(1);
     let url =
-      "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" +
+      "https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" +
       artista +
       "&api_key=6c028a05bb3337cbf567aa148b8839cf&format=json";
     this.setState({
