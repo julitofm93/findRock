@@ -17,10 +17,6 @@ class PageSearchResult extends Component {
       busqueda: search
     })
   }
-  componentWillMount(){
-  }
-  componentWillUnmount(){
-  }
   
   handleChange = e => {
     this.setState({
